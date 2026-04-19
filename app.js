@@ -88,13 +88,14 @@ function showThankYouPopup() {
     <div class="ty-popup">
       <img src="logo.png" alt="Khowabi Cattels" class="ty-logo" />
       <div class="ty-checkmark">✓</div>
-      <h2 class="ty-title">Shukriya! 🙏</h2>
+      <h2 class="ty-title"> THANKYOU! 🙏</h2>
       <p class="ty-msg">
-        Aapka message hamein mil gaya hai۔<br>
-        Hum jald hi aapse <strong>rabta karenge</strong>۔
+        Your message has been successfully received
+        <br>
+         <strong>Our team will contact you shortly.</strong>۔
       </p>
-      <p class="ty-sub">— Khowabi Cattels Team —</p>
-      <button class="ty-close-btn" onclick="closeThankYou()">← Wapas Jayein</button>
+      <p class="ty-sub">— Khowabi Cattle Team —</p>
+      <button class="ty-close-btn" onclick="closeThankYou()">← BACK</button>
     </div>
   `;
   document.body.appendChild(overlay);
