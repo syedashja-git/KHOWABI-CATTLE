@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>All Cattle – Khowabi Cattels</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Lato:wght@300;400;700&family=Cinzel:wght@600;800&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Lato:wght@300;400;700&family=Cinzel:wght@600;800&display=swap"
+    rel="stylesheet">
   <style>
     .cattle-page-hero {
       background: var(--green-dark);
@@ -15,27 +18,38 @@
       position: relative;
       overflow: hidden;
     }
+
     .cattle-page-hero::before {
       content: '';
       position: absolute;
       inset: 0;
       background:
-        radial-gradient(ellipse at 20% 50%, rgba(74,124,89,0.3) 0%, transparent 60%),
-        radial-gradient(ellipse at 80% 50%, rgba(201,162,39,0.1) 0%, transparent 60%);
+        radial-gradient(ellipse at 20% 50%, rgba(74, 124, 89, 0.3) 0%, transparent 60%),
+        radial-gradient(ellipse at 80% 50%, rgba(201, 162, 39, 0.1) 0%, transparent 60%);
     }
-    .cattle-page-hero .section-badge { position: relative; }
-    .cattle-page-hero .section-title { color: var(--white); position: relative; }
+
+    .cattle-page-hero .section-badge {
+      position: relative;
+    }
+
+    .cattle-page-hero .section-title {
+      color: var(--white);
+      position: relative;
+    }
+
     .cattle-page-hero p {
-      color: rgba(255,255,255,0.6);
+      color: rgba(255, 255, 255, 0.6);
       font-size: 1rem;
       letter-spacing: 1px;
       margin-top: 10px;
       position: relative;
     }
+
     .cattle-section {
       background: var(--green-dark);
       padding: 60px 0 100px;
     }
+
     .filter-bar {
       display: flex;
       gap: 12px;
@@ -43,10 +57,11 @@
       justify-content: center;
       margin-bottom: 44px;
     }
+
     .filter-btn {
-      background: rgba(255,255,255,0.07);
-      border: 1px solid rgba(201,162,39,0.3);
-      color: rgba(255,255,255,0.75);
+      background: rgba(255, 255, 255, 0.07);
+      border: 1px solid rgba(201, 162, 39, 0.3);
+      color: rgba(255, 255, 255, 0.75);
       font-family: var(--font-display);
       font-size: 0.72rem;
       letter-spacing: 2px;
@@ -56,6 +71,7 @@
       cursor: pointer;
       transition: var(--transition);
     }
+
     .filter-btn:hover,
     .filter-btn.active {
       background: var(--gold);
@@ -63,40 +79,48 @@
       border-color: var(--gold);
       font-weight: 700;
     }
+
     .back-btn-wrap {
       text-align: center;
       margin-bottom: 40px;
     }
+
     .back-btn {
       display: inline-flex;
       align-items: center;
       gap: 8px;
-      color: rgba(255,255,255,0.6);
+      color: rgba(255, 255, 255, 0.6);
       font-family: var(--font-display);
       font-size: 0.72rem;
       letter-spacing: 2px;
       text-transform: uppercase;
-      border: 1px solid rgba(255,255,255,0.2);
+      border: 1px solid rgba(255, 255, 255, 0.2);
       padding: 9px 22px;
       border-radius: 30px;
       transition: var(--transition);
       text-decoration: none;
     }
+
     .back-btn:hover {
       color: var(--gold-light);
       border-color: var(--gold);
     }
+
     .results-count {
       text-align: center;
-      color: rgba(255,255,255,0.4);
+      color: rgba(255, 255, 255, 0.4);
       font-size: 0.82rem;
       letter-spacing: 2px;
       font-family: var(--font-display);
       margin-bottom: 30px;
     }
-    #cowGrid .cow-card { display: flex; }
+
+    #cowGrid .cow-card {
+      display: flex;
+    }
   </style>
 </head>
+
 <body>
 
   <!-- NAVBAR -->
@@ -121,7 +145,7 @@
 
   <!-- PAGE HERO -->
   <div class="cattle-page-hero">
-    
+
     <h2 class="section-title">Meet Our Herd</h2>
     <p>Browse our complete herd — Premium animals available for sale, dairy & breeding.</p>
   </div>
@@ -134,385 +158,417 @@
         <a href="index.html#gallery" class="back-btn">← Back to Home</a>
       </div>
 
-       
 
-      
+
+
 
       <!-- 65 COW CARDS -->
       <div class="cow-grid" id="cowGrid">
 
+        <!-- COW 7 -->
         <div class="cow-card">
           <div class="cow-img-wrap">
-            <img src="c2.jpg" alt="Cow 1" loading="lazy" />
-            
+            <img src="KC 7 12mn.jpg" alt="Cow 1" loading="lazy" />
+
           </div>
           <div class="cow-info">
-            <h3>Cow #001 – Gulabi</h3>
+            <h3>KC #07 – Chitkara</h3>
             <div class="cow-meta">
-              <span>🐄 Breed: Cholistani</span>
-              <span>⚖️ Weight: 290 kg</span>
-              <span>🎂 Age: 3 Years</span>
+              <span>⚖️ Weight: 480 kg (Approx)</span>
             </div>
-            <p>Pure Cholistani. Calm temperament, great for dairy or breeding programs.</p>
+            <p>Known for his unique "Chitkabra" or speckled pattern, his coat resembles a leopard with small black spots
+              across the body. He is lean, tall, and has a very attractive, artistic coat pattern.</p>
           </div>
         </div>
 
-        <div class="cow-card">
-          <div class="cow-img-wrap">
-            <img src="c3.jpg" alt="Bull 2" loading="lazy" />
-            
-          </div>
-          <div class="cow-info">
-            <h3>Bull #002 – Toofan</h3>
-            <div class="cow-meta">
-              <span>🐄 Breed: Frisian Cross</span>
-              <span>⚖️ Weight: 510 kg</span>
-              <span>🎂 Age: 4 Years</span>
-            </div>
-            <p>Frisian cross with heavy frame. High milk yield potential, excellent health record.</p>
-          </div>
-        </div>
+        <!-- COW 8 -->
 
         <div class="cow-card">
           <div class="cow-img-wrap">
-            <img src="c4.jpg" alt="Cow 3" loading="lazy" />
-            
+            <img src="KC 8 12mn.jpg" alt="Bull 2" loading="lazy" />
+
           </div>
           <div class="cow-info">
-            <h3>Cow #003 – Chamki</h3>
+            <h3>KC #08 – Teeka</h3>
             <div class="cow-meta">
-              <span>🐄 Breed: Desi Dunda</span>
-              <span>⚖️ Weight: 320 kg</span>
-              <span>🎂 Age: 2.5 Years</span>
+              <span>⚖️ Weight: 480 kg (Approx)</span>
             </div>
-            <p>Muscular desi breed. Wide back, strong legs — a top pick for qurbani season.</p>
+            <p>A stunning gradient coat that moves from a deep copper brown on the back to a dark black on the neck and
+              hump. He features a sharp white "teeka" (blaze) on his forehead that adds a lot of character.</p>
           </div>
         </div>
+
+        <!-- COW 9 -->
 
         <div class="cow-card">
           <div class="cow-img-wrap">
-            <img src="c5.jpg" alt="Bull 4" loading="lazy" />
-            
+            <img src="KC 9 12mn.jpg" alt="Cow 3" loading="lazy" />
+
           </div>
           <div class="cow-info">
-            <h3>Bull #004 – Badshah</h3>
+            <h3>KC #09 – Moti</h3>
             <div class="cow-meta">
-              <span>🐄 Breed: Thari</span>
-              <span>⚖️ Weight: 460 kg</span>
-              <span>🎂 Age: 3.5 Years</span>
+              <span>⚖️ Weight: 480 kg (Approx)</span>
             </div>
-            <p>Hardy Thari breed, well-adapted to local conditions. Fully vaccinated and certified.</p>
+            <p>A very tidy-looking bull with a bright white base and well-distributed black markings. He has a great
+              neck girth and a very symmetrical body, making him look very well-proportioned.</p>
           </div>
         </div>
+
+
+        <!-- COW 10 -->
 
         <div class="cow-card">
           <div class="cow-img-wrap">
-            <img src="c6.jpg" alt="Bull 5" loading="lazy" />
-            
+            <img src="KC 10 12mn.jpg" alt="Bull 4" loading="lazy" />
+
           </div>
           <div class="cow-info">
-            <h3>Bull #005 – Arslaan</h3>
+            <h3>KC #10 – Kajal</h3>
             <div class="cow-meta">
-              <span>🐄 Breed: Red Sindhi</span>
-              <span>⚖️ Weight: 490 kg</span>
-              <span>🎂 Age: 5 Years</span>
+              <span>⚖️ Weight: 480 kg (Approx)</span>
             </div>
-            <p>Classic Red Sindhi. Known for heat tolerance and consistent dairy output.</p>
+            <p>Mostly jet black, but features a dramatic white splash across his belly and side. He is heavy-boned and
+              thick-necked, giving him a very "bulky" and impressive look.</p>
           </div>
         </div>
+
+        <!-- COW 11 -->
+        <div class="cow-card">
+          <div class="cow-img-wrap">
+            <img src="KC 11 9mn.jpg" alt="Bull 5" loading="lazy" />
+          </div>
+          <div class="cow-info">
+            <h3>KC # 11 – Kandha</h3>
+            <div class="cow-meta">
+              <span>⚖️ Weight: 360 kg (Approx)</span>
+            </div>
+            <p>This bull has a very clean ivory coat with delicate black speckles concentrated around the head and hump
+              area. He has a sharp, alert look and a very well-proportioned body for his age.</p>
+          </div>
+        </div>
+
+        <!-- COW 12 -->
 
         <div class="cow-card">
           <div class="cow-img-wrap">
-            <img src="c7.jpg" alt="Cow 6" loading="lazy" />
-            
+            <img src="KC 12 9mn.jpg" alt="Cow 6" loading="lazy" />
+
           </div>
           <div class="cow-info">
-            <h3>Cow #006 – Noor</h3>
+            <h3>KC # 12 – Khaki</h3>
             <div class="cow-meta">
-              <span>🐄 Breed: Achai</span>
-              <span>⚖️ Weight: 310 kg</span>
-              <span>🎂 Age: 1.5 Years</span>
+              <span>⚖️ Weight: 360 kg (Approx)</span>
             </div>
-            <p>Compact and strong Achai. Great for mountain farming or general livestock use.</p>
+            <p>A classic "Chulistani" style look with a soft sand-colored body that transitions into a darker smoky grey
+              on the hump. He is tall, lean, and carries a very graceful posture.</p>
           </div>
         </div>
+
+        <!-- COW 13 -->
 
         <div class="cow-card">
           <div class="cow-img-wrap">
-            <img src="c8.jpg" alt="Bull 7" loading="lazy" />
-            
+            <img src="KC 13 9mn.jpg" alt="Bull 7" loading="lazy" />
+
           </div>
           <div class="cow-info">
-            <h3>Bull #007 – Zafar</h3>
+            <h3>KC # 13 – Kora</h3>
             <div class="cow-meta">
-              <span>🐄 Breed: Nili-Ravi Buffalo</span>
-              <span>⚖️ Weight: 420 kg</span>
-              <span>🎂 Age: 2 Years</span>
+              <span>⚖️ Weight: 360 kg (Approx)</span>
             </div>
-            <p>Premium Nili-Ravi buffalo. Exceptional milk yield — up to 20L/day. Farm favourite.</p>
+            <p>Featuring high-contrast markings, this bull has large "ink-like" patches across his back and a fully
+              black head. His frame is sturdy, and the contrast makes him stand out from a distance.</p>
           </div>
         </div>
+
+        <!-- COW 14 -->
 
         <div class="cow-card">
           <div class="cow-img-wrap">
-            <img src="c9.jpg" alt="Bull 8" loading="lazy" />
-            
+            <img src="KC 14 11mn.jpg" alt="Bull 8" loading="lazy" />
+
           </div>
           <div class="cow-info">
-            <h3>Bull #008 – Shahzor</h3>
+            <h3>KC # 14 – Ratta</h3>
             <div class="cow-meta">
-              <span>🐄 Breed: Sahiwal</span>
-              <span>⚖️ Weight: 350 kg</span>
-              <span>🎂 Age: 3 Years</span>
+              <span>⚖️ Weight: 440 kg (Approx)</span>
             </div>
-            <p>Healthy Sahiwal, naturally grazed, vaccinated. Strong build, ideal for breeding or qurbani.</p>
+            <p>A stunning reddish-brown bull that features a dark, powerful neck and hump. The rich color of his coat
+              gives him a very premium and traditional look.</p>
           </div>
         </div>
+
+        <!-- COW 15 -->
 
         <div class="cow-card">
           <div class="cow-img-wrap">
-            <img src="c1.jpg" alt="Cow 9" loading="lazy" />
-            
+            <img src="KC 15 11mn.jpg" alt="Cow 9" loading="lazy" />
+
           </div>
           <div class="cow-info">
-            <h3>Cow #009 – Roshan</h3>
+            <h3>KC # 15 – Chandi</h3>
             <div class="cow-meta">
-              <span>🐄 Breed: Cholistani</span>
-              <span>⚖️ Weight: 540 kg</span>
-              <span>🎂 Age: 4 Years</span>
+              <span>⚖️ Weight: 440 kg (Approx)</span>
             </div>
-            <p>Pure Cholistani. Calm temperament, great for dairy or breeding programs.</p>
+            <p>This bull has a beautiful gradient of charcoal grey on his upper body that fades into a lighter frosty
+              white. He has a massive hump and a very deep chest, showing great growth potential.</p>
           </div>
         </div>
+
+        <!-- COW 16 -->
 
         <div class="cow-card">
           <div class="cow-img-wrap">
-            <img src="c2.jpg" alt="Bull 10" loading="lazy" />
-            
+            <img src="KC 16 11mn.jpg" alt="Bull 10" loading="lazy" />
+
           </div>
           <div class="cow-info">
-            <h3>Bull #010 – Rustam</h3>
+            <h3>KC # 16 – Talao</h3>
             <div class="cow-meta">
-              <span>🐄 Breed: Frisian Cross</span>
-              <span>⚖️ Weight: 380 kg</span>
-              <span>🎂 Age: 2.5 Years</span>
+              <span> ⚖️ Weight: 440 kg (Approx)</span>
             </div>
-            <p>Frisian cross with heavy frame. High milk yield potential, excellent health record.</p>
+            <p>A very balanced look where the black and white patches are almost equal in size. He has a very strong
+              neck girth and a solid, muscular build that looks very impressive in the sunlight.</p>
           </div>
         </div>
+
+        <!-- COW 17 -->
 
         <div class="cow-card">
           <div class="cow-img-wrap">
-            <img src="c3.jpg" alt="Cow 11" loading="lazy" />
-            
+            <img src="KC 17 11mn.jpg" alt="Cow 11" loading="lazy" />
+
           </div>
           <div class="cow-info">
-            <h3>Cow #011 – Lali</h3>
+            <h3>KC # 17 – Kabla / Shaded Black</h3>
             <div class="cow-meta">
-              <span>🐄 Breed: Desi Dunda</span>
-              <span>⚖️ Weight: 290 kg</span>
-              <span>🎂 Age: 3.5 Years</span>
+              <span>⚖️ Weight: 440 kg (Approx)</span>
             </div>
-            <p>Muscular desi breed. Wide back, strong legs — a top pick for qurbani season.</p>
+            <p>It features deep brown-black body shading that transitions to natural copper and reddish-tan highlights
+              around the face, eyes, and lower limbs. These lighter tones create a sophisticated gradient coat that
+              makes him highly distinct and natural-looking. His muscular frame and prominent Zebu hump emphasize his
+              powerful and roobdar presence.</p>
           </div>
         </div>
+
+        <!-- COW 18 -->
 
         <div class="cow-card">
           <div class="cow-img-wrap">
-            <img src="c4.jpg" alt="Bull 12" loading="lazy" />
-            
+            <img src="KC 18 10 mn.jpg" alt="Bull 12" loading="lazy" />
+
           </div>
           <div class="cow-info">
-            <h3>Bull #012 – Sher Dil</h3>
+            <h3>KC # 18 – Cheeta</h3>
             <div class="cow-meta">
-              <span>🐄 Breed: Thari</span>
-              <span>⚖️ Weight: 510 kg</span>
-              <span>🎂 Age: 5 Years</span>
+              <span>⚖️ Weight: 430 kg (Approx)</span>
             </div>
-            <p>Hardy Thari breed, well-adapted to local conditions. Fully vaccinated and certified.</p>
+            <p>A very rare-looking coat where a black body is covered with tiny white speckles, especially around the
+              middle. He looks very "active" and has a sharp, well-formed hump.</p>
           </div>
         </div>
+
+        <!-- COW 19 -->
 
         <div class="cow-card">
           <div class="cow-img-wrap">
-            <img src="c5.jpg" alt="Bull 13" loading="lazy" />
-            
+            <img src="KC 19 10 mn.jpg" alt="Bull 13" loading="lazy" />
+
           </div>
           <div class="cow-info">
-            <h3>Bull #013 – Lal Khan</h3>
+            <h3>KC # 19 – Seemab</h3>
             <div class="cow-meta">
-              <span>🐄 Breed: Red Sindhi</span>
-              <span>⚖️ Weight: 320 kg</span>
-              <span>🎂 Age: 1.5 Years</span>
+              <span>⚖️ Weight: 430 kg (Approx)</span>
             </div>
-            <p>Classic Red Sindhi. Known for heat tolerance and consistent dairy output.</p>
+            <p>A sophisticated bull with a smooth, silver-toned coat. He has a very "clean" appearance with minimal
+              markings, emphasizing his height and strong skeletal structure</p>
           </div>
         </div>
+
+        <!-- COW 20 -->
 
         <div class="cow-card">
           <div class="cow-img-wrap">
-            <img src="c6.jpg" alt="Cow 14" loading="lazy" />
-            
+            <img src="KC 20 10 mn.jpg" alt="Cow 14" loading="lazy" />
+
           </div>
           <div class="cow-info">
-            <h3>Cow #014 – Mehru</h3>
+            <h3>KC # 20 – Kajla</h3>
             <div class="cow-meta">
-              <span>🐄 Breed: Achai</span>
-              <span>⚖️ Weight: 460 kg</span>
-              <span>🎂 Age: 2 Years</span>
+              <span>⚖️ Weight: 430 kg (Approx)</span>
             </div>
-            <p>Compact and strong Achai. Great for mountain farming or general livestock use.</p>
+            <p>Primarily a dark, heavy bull with a surprise splash of white on his lower side. He has a very thick neck
+              and a wide stance, making him look very bulky and strong.</p>
           </div>
         </div>
+
+        <!-- COW 21 -->
 
         <div class="cow-card">
           <div class="cow-img-wrap">
-            <img src="c7.jpg" alt="Bull 15" loading="lazy" />
-            
+            <img src="KC 21 10 mn.jpg" alt="Bull 15" loading="lazy" />
+
           </div>
           <div class="cow-info">
-            <h3>Bull #015 – Kaala Bacha</h3>
+            <h3>KC # 21 – Badal</h3>
             <div class="cow-meta">
-              <span>🐄 Breed: Nili-Ravi Buffalo</span>
-              <span>⚖️ Weight: 490 kg</span>
-              <span>🎂 Age: 3 Years</span>
+              <span>⚖️ Weight: 430 kg (Approx)</span>
             </div>
-            <p>Premium Nili-Ravi buffalo. Exceptional milk yield — up to 20L/day. Farm favourite.</p>
+            <p>A striking bull with a dominant off-white coat and subtle, light-tan patches around the face and neck.
+              Its clean, bright appearance gives it an elegant and well-groomed look, perfect for those who prefer a
+              classic, lighter aesthetic.</p>
           </div>
         </div>
+
+        <!-- COW 22 -->
 
         <div class="cow-card">
           <div class="cow-img-wrap">
-            <img src="c8.jpg" alt="Bull 16" loading="lazy" />
-            
+            <img src="KC 22 13 mn.jpg" alt="Bull 16" loading="lazy" />
+
           </div>
           <div class="cow-info">
-            <h3>Bull #016 – Mabrook</h3>
+            <h3>KC # 22 – Heera</h3>
             <div class="cow-meta">
-              <span>🐄 Breed: Sahiwal</span>
-              <span>⚖️ Weight: 310 kg</span>
-              <span>🎂 Age: 4 Years</span>
+              <span>⚖️ Weight: 520 kg (Approx)</span>
             </div>
-            <p>Healthy Sahiwal, naturally grazed, vaccinated. Strong build, ideal for breeding or qurbani.</p>
+            <p>This bull features a solid jet-black coat with a high-gloss finish. The only contrast is a distinctive
+              white diamond mark on the forehead and a touch of white at the tail tip. It carries a powerful, bold
+              presence.</p>
           </div>
         </div>
+
+
+        <!-- COW 23 -->
 
         <div class="cow-card">
           <div class="cow-img-wrap">
-            <img src="c9.jpg" alt="Cow 17" loading="lazy" />
-            
+            <img src="KC 23 13 mn.jpg" alt="Cow 17" loading="lazy" />
+
           </div>
           <div class="cow-info">
-            <h3>Cow #017 – Shirin</h3>
+            <h3>KC # 23 – Shirin</h3>
             <div class="cow-meta">
-              <span>🐄 Breed: Cholistani</span>
-              <span>⚖️ Weight: 420 kg</span>
-              <span>🎂 Age: 2.5 Years</span>
+              <span>⚖️ Weight: 530 kg (Approx) </span>
             </div>
-            <p>Pure Cholistani. Calm temperament, great for dairy or breeding programs.</p>
+            <p>A beautiful blend of deep mahogany and white, accented with unique black speckles along the hindquarters.
+              The complex distribution of colors makes this animal stand out as a truly one-of-a-kind specimen.</p>
           </div>
         </div>
+
+        <!-- COW 24 -->
+
 
         <div class="cow-card">
           <div class="cow-img-wrap">
-            <img src="c1.jpg" alt="Bull 18" loading="lazy" />
-            
+            <img src="KC 24 15 mn.jpg" alt="Bull 18" loading="lazy" />
+
           </div>
           <div class="cow-info">
-            <h3>Bull #018 – Sultan</h3>
+            <h3>KC # 24 – Sultan</h3>
             <div class="cow-meta">
-              <span>🐄 Breed: Frisian Cross</span>
-              <span>⚖️ Weight: 350 kg</span>
-              <span>🎂 Age: 3.5 Years</span>
+              <span>⚖️ Weight: 600 kg (Approx)</span>
             </div>
-            <p>Frisian cross with heavy frame. High milk yield potential, excellent health record.</p>
+            <p>Featuring a rich reddish-brown (chestnut) body contrasted by a strong black neck and hump. This dual-tone
+              "shadow" effect highlights its muscular build and gives it a very rugged, masculine appearance.</p>
           </div>
         </div>
+
+        <!-- COW 25 -->
+
 
         <div class="cow-card">
           <div class="cow-img-wrap">
-            <img src="c2.jpg" alt="Cow 19" loading="lazy" />
-            
+            <img src="KC 26 16 mn.jpg" alt="Cow 19" loading="lazy" />
+
           </div>
           <div class="cow-info">
-            <h3>Cow #019 – Zarina</h3>
+            <h3>KC # 25 – Zarina</h3>
             <div class="cow-meta">
-              <span>🐄 Breed: Desi Dunda</span>
-              <span>⚖️ Weight: 540 kg</span>
-              <span>🎂 Age: 5 Years</span>
+              <span>⚖️ Weight: 640 kg (Approx)</span>
             </div>
-            <p>Muscular desi breed. Wide back, strong legs — a top pick for qurbani season.</p>
+            <p>A highly decorative bull with a white base heavily covered in red-brown speckles. The intricate pattern
+              is most dense around the neck and legs, creating a "dalmatian" style effect that is very popular in
+              traditional cattle markets.</p>
           </div>
         </div>
+
+        <!-- COW 26 -->
+
 
         <div class="cow-card">
           <div class="cow-img-wrap">
-            <img src="c3.jpg" alt="Bull 20" loading="lazy" />
-            
+            <img src="KC 26 16 mn.jpg" alt="Bull 20" loading="lazy" />
+
           </div>
           <div class="cow-info">
-            <h3>Bull #020 – Janbaz</h3>
+            <h3>KC # 26 – Janbaz</h3>
             <div class="cow-meta">
-              <span>🐄 Breed: Thari</span>
-              <span>⚖️ Weight: 380 kg</span>
-              <span>🎂 Age: 1.5 Years</span>
+              <span>⚖️ Weight: 640 kg (Approx)</span>
             </div>
-            <p>Hardy Thari breed, well-adapted to local conditions. Fully vaccinated and certified.</p>
+            <p>This bull sports a high-contrast black and white "piebald" pattern. With large, clean black patches on a
+              bright white coat, it has a very sharp, symmetrical look that is instantly eye-catching.</p>
           </div>
         </div>
+
+        <!-- COW 27 -->
+
 
         <div class="cow-card">
           <div class="cow-img-wrap">
-            <img src="c4.jpg" alt="Bull 21" loading="lazy" />
-            
+            <img src="KC 27 16 mn.jpg" alt="Bull 21" loading="lazy" />
+
           </div>
           <div class="cow-info">
-            <h3>Bull #021 – Dhoom</h3>
+            <h3>KC # 27 – Dhoom</h3>
             <div class="cow-meta">
-              <span>🐄 Breed: Red Sindhi</span>
-              <span>⚖️ Weight: 290 kg</span>
-              <span>🎂 Age: 2 Years</span>
+              <span>⚖️ Weight: 640 kg (Approx)</span>
             </div>
-            <p>Classic Red Sindhi. Known for heat tolerance and consistent dairy output.</p>
+            <p>A softer palette featuring warm tan patches on a cream background. The neck transitions into a darker
+              charcoal shade, providing a sophisticated gradient that looks excellent under natural sunlight.</p>
           </div>
         </div>
+
+
+        <!-- COW 28 -->
 
         <div class="cow-card">
           <div class="cow-img-wrap">
-            <img src="c5.jpg" alt="Cow 22" loading="lazy" />
-            
+            <img src="KC 28 16 mn.jpg" alt="Cow 22" loading="lazy" />
+
           </div>
           <div class="cow-info">
-            <h3>Cow #022 – Sitara</h3>
+            <h3>KC # 28 – Sitara</h3>
             <div class="cow-meta">
-              <span>🐄 Breed: Achai</span>
-              <span>⚖️ Weight: 510 kg</span>
-              <span>🎂 Age: 3 Years</span>
+              <span>⚖️ Weight: 640 kg (Approx)</span>
             </div>
-            <p>Compact and strong Achai. Great for mountain farming or general livestock use.</p>
+            <p>A sturdy bull with a dark cocoa-brown coat that fades into a deep charcoal grey along the spine and hump.
+              The "smoked" finish gives the hide a smooth, velvety texture and a very heavy-set appearance.</p>
           </div>
         </div>
+
+        <!-- COW 29 -->
 
         <div class="cow-card">
           <div class="cow-img-wrap">
-            <img src="c6.jpg" alt="Bull 23" loading="lazy" />
-            
+            <img src="KC 29 16 mn.jpg" alt="Bull 23" loading="lazy" />
+
           </div>
           <div class="cow-info">
-            <h3>Bull #023 – Qahar</h3>
+            <h3>KC # 29 – Qahar</h3>
             <div class="cow-meta">
-              <span>🐄 Breed: Nili-Ravi Buffalo</span>
-              <span>⚖️ Weight: 320 kg</span>
-              <span>🎂 Age: 4 Years</span>
+              <span>⚖️ Weight: 640 kg (Approx)</span>
             </div>
-            <p>Premium Nili-Ravi buffalo. Exceptional milk yield — up to 20L/day. Farm favourite.</p>
+            <p>This bull is defined by its solid black head and neck, which transitions into a white body densely
+              "peppered" with black spots. It offers a perfect balance of dark strength and light detail.</p>
           </div>
         </div>
 
-        <div class="cow-card">
+        <!-- <div class="cow-card">
           <div class="cow-img-wrap">
             <img src="c7.jpg" alt="Bull 24" loading="lazy" />
-            
+
           </div>
           <div class="cow-info">
             <h3>Bull #024 – Azlan</h3>
@@ -528,7 +584,7 @@
         <div class="cow-card">
           <div class="cow-img-wrap">
             <img src="c8.jpg" alt="Cow 25" loading="lazy" />
-            
+
           </div>
           <div class="cow-info">
             <h3>Cow #025 – Laila</h3>
@@ -544,7 +600,7 @@
         <div class="cow-card">
           <div class="cow-img-wrap">
             <img src="c9.jpg" alt="Bull 26" loading="lazy" />
-            
+
           </div>
           <div class="cow-info">
             <h3>Bull #026 – Haidar</h3>
@@ -560,7 +616,7 @@
         <div class="cow-card">
           <div class="cow-img-wrap">
             <img src="c1.jpg" alt="Cow 27" loading="lazy" />
-            
+
           </div>
           <div class="cow-info">
             <h3>Cow #027 – Hina</h3>
@@ -576,7 +632,7 @@
         <div class="cow-card">
           <div class="cow-img-wrap">
             <img src="c2.jpg" alt="Bull 28" loading="lazy" />
-            
+
           </div>
           <div class="cow-info">
             <h3>Bull #028 – Bijli</h3>
@@ -592,7 +648,7 @@
         <div class="cow-card">
           <div class="cow-img-wrap">
             <img src="c3.jpg" alt="Bull 29" loading="lazy" />
-            
+
           </div>
           <div class="cow-info">
             <h3>Bull #029 – Mehboob</h3>
@@ -608,7 +664,7 @@
         <div class="cow-card">
           <div class="cow-img-wrap">
             <img src="c4.jpg" alt="Cow 30" loading="lazy" />
-            
+
           </div>
           <div class="cow-info">
             <h3>Cow #030 – Sona</h3>
@@ -624,7 +680,7 @@
         <div class="cow-card">
           <div class="cow-img-wrap">
             <img src="c5.jpg" alt="Bull 31" loading="lazy" />
-            
+
           </div>
           <div class="cow-info">
             <h3>Bull #031 – Sikandar</h3>
@@ -640,7 +696,7 @@
         <div class="cow-card">
           <div class="cow-img-wrap">
             <img src="c6.jpg" alt="Bull 32" loading="lazy" />
-            
+
           </div>
           <div class="cow-info">
             <h3>Bull #032 – Sherdil</h3>
@@ -656,7 +712,7 @@
         <div class="cow-card">
           <div class="cow-img-wrap">
             <img src="c7.jpg" alt="Cow 33" loading="lazy" />
-            
+
           </div>
           <div class="cow-info">
             <h3>Cow #033 – Chanda</h3>
@@ -672,7 +728,7 @@
         <div class="cow-card">
           <div class="cow-img-wrap">
             <img src="c8.jpg" alt="Bull 34" loading="lazy" />
-            
+
           </div>
           <div class="cow-info">
             <h3>Bull #034 – Qasim</h3>
@@ -688,7 +744,7 @@
         <div class="cow-card">
           <div class="cow-img-wrap">
             <img src="c9.jpg" alt="Cow 35" loading="lazy" />
-            
+
           </div>
           <div class="cow-info">
             <h3>Cow #035 – Pari</h3>
@@ -704,7 +760,7 @@
         <div class="cow-card">
           <div class="cow-img-wrap">
             <img src="c1.jpg" alt="Bull 36" loading="lazy" />
-            
+
           </div>
           <div class="cow-info">
             <h3>Bull #036 – Haider</h3>
@@ -720,7 +776,7 @@
         <div class="cow-card">
           <div class="cow-img-wrap">
             <img src="c2.jpg" alt="Bull 37" loading="lazy" />
-            
+
           </div>
           <div class="cow-info">
             <h3>Bull #037 – Jalal</h3>
@@ -736,7 +792,7 @@
         <div class="cow-card">
           <div class="cow-img-wrap">
             <img src="c3.jpg" alt="Cow 38" loading="lazy" />
-            
+
           </div>
           <div class="cow-info">
             <h3>Cow #038 – Reshma</h3>
@@ -752,7 +808,7 @@
         <div class="cow-card">
           <div class="cow-img-wrap">
             <img src="c4.jpg" alt="Bull 39" loading="lazy" />
-            
+
           </div>
           <div class="cow-info">
             <h3>Bull #039 – Mardaan</h3>
@@ -768,7 +824,7 @@
         <div class="cow-card">
           <div class="cow-img-wrap">
             <img src="c5.jpg" alt="Bull 40" loading="lazy" />
-            
+
           </div>
           <div class="cow-info">
             <h3>Bull #040 – Wazir</h3>
@@ -784,7 +840,7 @@
         <div class="cow-card">
           <div class="cow-img-wrap">
             <img src="c6.jpg" alt="Cow 41" loading="lazy" />
-            
+
           </div>
           <div class="cow-info">
             <h3>Cow #041 – Salma</h3>
@@ -800,7 +856,7 @@
         <div class="cow-card">
           <div class="cow-img-wrap">
             <img src="c7.jpg" alt="Bull 42" loading="lazy" />
-            
+
           </div>
           <div class="cow-info">
             <h3>Bull #042 – Khalid</h3>
@@ -816,7 +872,7 @@
         <div class="cow-card">
           <div class="cow-img-wrap">
             <img src="c8.jpg" alt="Cow 43" loading="lazy" />
-            
+
           </div>
           <div class="cow-info">
             <h3>Cow #043 – Amna</h3>
@@ -832,7 +888,7 @@
         <div class="cow-card">
           <div class="cow-img-wrap">
             <img src="c9.jpg" alt="Bull 44" loading="lazy" />
-            
+
           </div>
           <div class="cow-info">
             <h3>Bull #044 – Hamza</h3>
@@ -848,7 +904,7 @@
         <div class="cow-card">
           <div class="cow-img-wrap">
             <img src="c1.jpg" alt="Bull 45" loading="lazy" />
-            
+
           </div>
           <div class="cow-info">
             <h3>Bull #045 – Tariq</h3>
@@ -864,7 +920,7 @@
         <div class="cow-card">
           <div class="cow-img-wrap">
             <img src="c2.jpg" alt="Cow 46" loading="lazy" />
-            
+
           </div>
           <div class="cow-info">
             <h3>Cow #046 – Rukhsar</h3>
@@ -880,7 +936,7 @@
         <div class="cow-card">
           <div class="cow-img-wrap">
             <img src="c3.jpg" alt="Bull 47" loading="lazy" />
-            
+
           </div>
           <div class="cow-info">
             <h3>Bull #047 – Umar</h3>
@@ -896,7 +952,7 @@
         <div class="cow-card">
           <div class="cow-img-wrap">
             <img src="c4.jpg" alt="Bull 48" loading="lazy" />
-            
+
           </div>
           <div class="cow-info">
             <h3>Bull #048 – Mansoor</h3>
@@ -912,7 +968,7 @@
         <div class="cow-card">
           <div class="cow-img-wrap">
             <img src="c5.jpg" alt="Cow 49" loading="lazy" />
-            
+
           </div>
           <div class="cow-info">
             <h3>Cow #049 – Naseem</h3>
@@ -928,7 +984,7 @@
         <div class="cow-card">
           <div class="cow-img-wrap">
             <img src="c6.jpg" alt="Bull 50" loading="lazy" />
-            
+
           </div>
           <div class="cow-info">
             <h3>Bull #050 – Basit</h3>
@@ -944,7 +1000,7 @@
         <div class="cow-card">
           <div class="cow-img-wrap">
             <img src="c7.jpg" alt="Cow 51" loading="lazy" />
-            
+
           </div>
           <div class="cow-info">
             <h3>Cow #051 – Zubaida</h3>
@@ -960,7 +1016,7 @@
         <div class="cow-card">
           <div class="cow-img-wrap">
             <img src="c8.jpg" alt="Bull 52" loading="lazy" />
-            
+
           </div>
           <div class="cow-info">
             <h3>Bull #052 – Rauf</h3>
@@ -976,7 +1032,7 @@
         <div class="cow-card">
           <div class="cow-img-wrap">
             <img src="c9.jpg" alt="Bull 53" loading="lazy" />
-            
+
           </div>
           <div class="cow-info">
             <h3>Bull #053 – Saad</h3>
@@ -992,7 +1048,7 @@
         <div class="cow-card">
           <div class="cow-img-wrap">
             <img src="c1.jpg" alt="Cow 54" loading="lazy" />
-            
+
           </div>
           <div class="cow-info">
             <h3>Cow #054 – Shabnam</h3>
@@ -1008,7 +1064,7 @@
         <div class="cow-card">
           <div class="cow-img-wrap">
             <img src="c2.jpg" alt="Bull 55" loading="lazy" />
-            
+
           </div>
           <div class="cow-info">
             <h3>Bull #055 – Noman</h3>
@@ -1024,7 +1080,7 @@
         <div class="cow-card">
           <div class="cow-img-wrap">
             <img src="c3.jpg" alt="Bull 56" loading="lazy" />
-            
+
           </div>
           <div class="cow-info">
             <h3>Bull #056 – Fahad</h3>
@@ -1040,7 +1096,7 @@
         <div class="cow-card">
           <div class="cow-img-wrap">
             <img src="c4.jpg" alt="Cow 57" loading="lazy" />
-            
+
           </div>
           <div class="cow-info">
             <h3>Cow #057 – Dilnaz</h3>
@@ -1056,7 +1112,7 @@
         <div class="cow-card">
           <div class="cow-img-wrap">
             <img src="c5.jpg" alt="Bull 58" loading="lazy" />
-            
+
           </div>
           <div class="cow-info">
             <h3>Bull #058 – Toofan</h3>
@@ -1072,7 +1128,7 @@
         <div class="cow-card">
           <div class="cow-img-wrap">
             <img src="c6.jpg" alt="Cow 59" loading="lazy" />
-            
+
           </div>
           <div class="cow-info">
             <h3>Cow #059 – Shehnaz</h3>
@@ -1088,7 +1144,7 @@
         <div class="cow-card">
           <div class="cow-img-wrap">
             <img src="c7.jpg" alt="Bull 60" loading="lazy" />
-            
+
           </div>
           <div class="cow-info">
             <h3>Bull #060 – Badshah</h3>
@@ -1104,7 +1160,7 @@
         <div class="cow-card">
           <div class="cow-img-wrap">
             <img src="c8.jpg" alt="Bull 61" loading="lazy" />
-            
+
           </div>
           <div class="cow-info">
             <h3>Bull #061 – Arslaan</h3>
@@ -1120,7 +1176,7 @@
         <div class="cow-card">
           <div class="cow-img-wrap">
             <img src="c9.jpg" alt="Cow 62" loading="lazy" />
-            
+
           </div>
           <div class="cow-info">
             <h3>Cow #062 – Mumtaz</h3>
@@ -1136,7 +1192,7 @@
         <div class="cow-card">
           <div class="cow-img-wrap">
             <img src="c1.jpg" alt="Bull 63" loading="lazy" />
-            
+
           </div>
           <div class="cow-info">
             <h3>Bull #063 – Zafar</h3>
@@ -1152,7 +1208,7 @@
         <div class="cow-card">
           <div class="cow-img-wrap">
             <img src="c2.jpg" alt="Bull 64" loading="lazy" />
-            
+
           </div>
           <div class="cow-info">
             <h3>Bull #064 – Shahzor</h3>
@@ -1168,7 +1224,7 @@
         <div class="cow-card">
           <div class="cow-img-wrap">
             <img src="c3.jpg" alt="Cow 65" loading="lazy" />
-            
+
           </div>
           <div class="cow-info">
             <h3>Cow #065 – Razia</h3>
@@ -1179,11 +1235,14 @@
             </div>
             <p>Pure Cholistani. Calm temperament, great for dairy or breeding programs.</p>
           </div>
+        </div>-->
         </div>
-      </div>
 
     </div>
   </section>
+  <!-- cards end -->
+     
+  
 
   <!-- FOOTER -->
   <footer class="footer">
@@ -1210,7 +1269,7 @@
   <script>
     // Navbar hamburger
     const hamburger = document.getElementById('hamburger');
-    const navLinks  = document.getElementById('navLinks');
+    const navLinks = document.getElementById('navLinks');
     hamburger.addEventListener('click', () => {
       navLinks.classList.toggle('open');
       hamburger.classList.toggle('active');
@@ -1226,9 +1285,9 @@
       cards.forEach(card => {
         const title = card.querySelector('h3').textContent.toLowerCase();
         let show = false;
-        if (type === 'all')  show = true;
+        if (type === 'all') show = true;
         if (type === 'bull') show = title.includes('bull');
-        if (type === 'cow')  show = title.includes('cow');
+        if (type === 'cow') show = title.includes('cow');
         card.style.display = show ? 'flex' : 'none';
         if (show) visible++;
       });
@@ -1261,9 +1320,11 @@
   <!-- ===== WHATSAPP STICKY BUTTON ===== -->
   <a href="https://wa.me/923132244506" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="white" width="30" height="30">
-      <path d="M16 0C7.164 0 0 7.163 0 16c0 2.822.736 5.463 2.02 7.752L0 32l8.496-2.02A15.93 15.93 0 0 0 16 32c8.837 0 16-7.163 16-16S24.837 0 16 0zm8.07 22.512c-.34.956-1.99 1.83-2.724 1.944-.697.107-1.58.152-2.55-.16-.588-.19-1.343-.443-2.307-.868-4.06-1.754-6.712-5.84-6.914-6.114-.2-.274-1.634-2.173-1.634-4.145 0-1.973 1.035-2.943 1.403-3.344.367-.4.8-.5 1.067-.5.267 0 .534.003.768.014.246.012.577-.093.903.688.34.806 1.154 2.778 1.254 2.98.1.2.167.434.033.7-.133.267-.2.433-.4.667-.2.233-.42.52-.6.7-.2.2-.408.415-.176.815.233.4 1.034 1.707 2.22 2.764 1.524 1.36 2.81 1.78 3.21 1.98.4.2.633.167.867-.1.233-.267.999-1.167 1.266-1.567.267-.4.533-.333.9-.2.367.133 2.333 1.1 2.733 1.3.4.2.667.3.767.467.1.167.1.956-.24 1.912z"/>
+      <path
+        d="M16 0C7.164 0 0 7.163 0 16c0 2.822.736 5.463 2.02 7.752L0 32l8.496-2.02A15.93 15.93 0 0 0 16 32c8.837 0 16-7.163 16-16S24.837 0 16 0zm8.07 22.512c-.34.956-1.99 1.83-2.724 1.944-.697.107-1.58.152-2.55-.16-.588-.19-1.343-.443-2.307-.868-4.06-1.754-6.712-5.84-6.914-6.114-.2-.274-1.634-2.173-1.634-4.145 0-1.973 1.035-2.943 1.403-3.344.367-.4.8-.5 1.067-.5.267 0 .534.003.768.014.246.012.577-.093.903.688.34.806 1.154 2.778 1.254 2.98.1.2.167.434.033.7-.133.267-.2.433-.4.667-.2.233-.42.52-.6.7-.2.2-.408.415-.176.815.233.4 1.034 1.707 2.22 2.764 1.524 1.36 2.81 1.78 3.21 1.98.4.2.633.167.867-.1.233-.267.999-1.167 1.266-1.567.267-.4.533-.333.9-.2.367.133 2.333 1.1 2.733 1.3.4.2.667.3.767.467.1.167.1.956-.24 1.912z" />
     </svg>
     <span class="wa-tooltip">Chat with us!</span>
   </a>
 </body>
+
 </html>
